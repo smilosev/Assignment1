@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="message-page.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<ul>
+  <li><a href="message-page.html">Home</a></li>
+  <li><a href="about-me.html">About Me</a></li>
+</ul>
+
+<body>
+  <h1>Stefan's Message Webpage</h1>
+  <p>Enter a Message to Post!</p>
+
+  <form> 
+    <textarea required id="message-text" rows="4" cols="50" placeholder="Enter a message..." maxlength="120" class="box-shadow"></textarea>
+    <button type="button" id="btnAdd" class="post-button" onclick="postMessage()">Post Message</button>
+    <input type="reset" class="clear-button" value="Clear">
+
+  </form>
+
+  <button type="button" onclick="clearMessages()" class="float-button"><i class="fa fa-trash"></i> Delete Messages</button>
+
+  <button type="button" class="float-button" onclick="toggleMessages()">Hide Messages</button>
+
+
+  <p id="message"></p>
+
+
+  <script src="message-page.js"></script>
+</body>
+
+</html>

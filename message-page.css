@@ -1,0 +1,104 @@
+body {
+    transform: scale(1.5);
+    transform-origin: 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .post-button {
+      background-color: #44dd88;
+  }
+
+  .post-button:hover {
+    background-color: #006400;
+  }
+
+  .clear-button {
+    border: none;
+    background-color:grey;
+    color: white;
+    padding: 6px 8px;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .clear-button:hover {
+    background: #f44336;
+  }
+
+  .center {
+    display: block;
+    margin-left: 300px;
+  }
+
+  .box-shadow {
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 3px 5px #888888;
+  }
+
+  .float-button {
+    float: left;
+    margin-top: 10rem;
+    margin-left: 4px;
+    background-color: DodgerBlue;
+  }
+
+  .float-button:hover {
+    background-color: grey;
+    border-radius: 4px;
+  }
+
+  button {
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  input {
+    border: none;
+    background-color:blue;
+    color: white;
+    padding: 6px 8px;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+  
+  
